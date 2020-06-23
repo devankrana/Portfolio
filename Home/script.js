@@ -55,7 +55,7 @@ TweenMax.from("#navigation", 3, {
 
 
 TweenMax.from("#know", 3, {
-    delay: 9.2,
+    delay: 8.2,
     opacity: 0,
     y: 20,
     ease: Expo.easeInOut
