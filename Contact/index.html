@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DEVANK-Contact Me</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">DEVANK</a>
+            <div id="toogle" onclick="toggle()"></div>
+        </header>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+            <li><a href="#"><img src="linkedin.png"></a></li>
+        </ul>
+        <div class="container" id="regform">
+            <h1>CONTACT ME</h1>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="concern" cols="20" rows="5" placeholder="Enter your Concern"></textarea>
+                </div>
+            </form>
+            <button class="btn" id="sub">Submit</button>
+        </div>
+        <footer>
+            <hr>
+            <p>2020 Copyrights © Devank Rana. All Rights Reserved. </p>
+          </footer>
+    </section>
+    <div id="navigation">
+        <ul>
+            <li><a href="../Home/index.html">Home</a></li>
+            <li><a href="../About/index.html">About</a></li>
+            <li><a href="../Projects/index.html">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        
+        
+    </div>
+    <script>
+        function toggle() {
+    var sec = document.getElementById('sec');
+    var nav = document.getElementById('navigation');
+    sec.classList.toggle('active');
+    nav.classList.toggle('active');
+}
+    </script>
+</body>
+</html>
